@@ -36,10 +36,6 @@ export function Welcome({ message }: { message: string }) {
 					Join the waiting list
 				</a>
 
-				{/* Optional footer / debug message */}
-				{message && (
-					<p className="text-xs text-muted-foreground mt-6">{message}</p>
-				)}
 			</div>
 		</main>
 	);
